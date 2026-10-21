@@ -133,11 +133,11 @@ export const InstagramCarousel: React.FC = () => {
               {/* Instagram Card Header */}
               <div className="p-4 flex items-center justify-between border-b border-[#1f1f1f]">
                 <div className="flex items-center gap-3">
-                  <div className="w-9 h-9 rounded-full overflow-hidden border border-[#C6A56B]/50 p-0.5 bg-[#151515]">
+                  <div className="w-9 h-9 rounded-full overflow-hidden border border-[#C6A56B]/50 bg-black flex items-center justify-center shrink-0">
                     <img
                       src="/images/logo.jpg"
                       alt="Nayak Tattoo Studio"
-                      className="w-full h-full object-cover rounded-full"
+                      className="w-full h-full object-cover scale-[1.05]"
                     />
                   </div>
                   <div>

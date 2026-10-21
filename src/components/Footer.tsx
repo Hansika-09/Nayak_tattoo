@@ -31,11 +31,11 @@ export const Footer: React.FC = () => {
           {/* Brand Manifesto */}
           <div className="lg:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-full overflow-hidden border border-[#C6A56B]/60 p-0.5 bg-[#151515]">
+              <div className="w-10 h-10 rounded-full overflow-hidden border border-[#C6A56B]/60 bg-black flex items-center justify-center shrink-0">
                 <img
                   src="/images/logo.jpg"
                   alt="Nayak Tattoo Studio"
-                  className="w-full h-full object-cover rounded-full"
+                  className="w-full h-full object-cover scale-[1.05]"
                 />
               </div>
               <span className="font-['Bebas_Neue'] text-2xl text-[#F5F1EB] tracking-wider">

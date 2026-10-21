@@ -59,11 +59,11 @@ export const Navbar: React.FC<NavbarProps> = () => {
             className="flex items-center gap-3 group focus:outline-none"
             aria-label="Nayak Tattoo Studio Home"
           >
-            <div className="relative w-10 h-10 sm:w-11 sm:h-11 rounded-full overflow-hidden border border-[#C6A56B]/40 group-hover:border-[#C6A56B] transition-colors shadow-md">
+            <div className="relative w-10 h-10 sm:w-11 sm:h-11 rounded-full overflow-hidden border border-[#C6A56B]/40 group-hover:border-[#C6A56B] transition-colors shadow-md bg-black">
               <img
                 src="/images/logo.jpg"
                 alt="Nayak Tattoo Studio Logo"
-                className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
+                className="w-full h-full object-cover object-center scale-[1.03] group-hover:scale-110 transition-transform duration-300"
               />
             </div>
             <div className="flex flex-col">

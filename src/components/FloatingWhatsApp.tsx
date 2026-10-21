@@ -31,11 +31,11 @@ export const FloatingWhatsApp: React.FC = () => {
         <div className="mb-3 w-80 sm:w-96 rounded-2xl bg-[#151515] border border-[#C6A56B]/30 shadow-2xl p-4 sm:p-5 backdrop-blur-xl animate-fade-in text-left">
           <div className="flex items-center justify-between pb-3 border-b border-[#222222] mb-3">
             <div className="flex items-center gap-2.5">
-              <div className="relative w-8 h-8 rounded-full overflow-hidden border border-[#C6A56B]">
+              <div className="relative w-8 h-8 rounded-full overflow-hidden border border-[#C6A56B] bg-black shrink-0 flex items-center justify-center">
                 <img
                   src="/images/logo.jpg"
                   alt="Nayak Tattoo Studio"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover scale-[1.05]"
                 />
               </div>
               <div>

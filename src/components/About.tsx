@@ -21,11 +21,11 @@ export const About: React.FC = () => {
               <div className="relative rounded-2xl overflow-hidden bg-[#0B0B0B] border border-[#C6A56B]/30 shadow-2xl p-6 sm:p-8">
                 {/* Studio Logo presentation */}
                 <div className="flex flex-col items-center text-center">
-                  <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-full overflow-hidden border-2 border-[#C6A56B] shadow-[0_0_25px_rgba(198,165,107,0.3)] mb-6 p-1 bg-[#151515]">
+                  <div className="w-36 h-36 sm:w-44 sm:h-44 rounded-full overflow-hidden border-2 border-[#C6A56B] shadow-[0_0_30px_rgba(198,165,107,0.35)] mb-6 bg-black flex items-center justify-center">
                     <img
                       src="/images/logo.jpg"
                       alt="Nayak Tattoo Studio Official Emblem"
-                      className="w-full h-full object-cover rounded-full"
+                      className="w-full h-full object-cover scale-[1.03]"
                     />
                   </div>
 
